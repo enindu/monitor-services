@@ -1,0 +1,10 @@
+[Unit]
+Description=Run monitor services service periodically
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=5min
+Unit=monitor-services.service
+
+[Install]
+WantedBy=timers.target
