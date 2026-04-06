@@ -1,5 +1,5 @@
 [Unit]
-Description=Monitor systemd services, try to recover failed services, and send email alerts
+Description=Monitor systemd services, try to recover failed services, and send email alerts.
 
 [Service]
 Type=oneshot
